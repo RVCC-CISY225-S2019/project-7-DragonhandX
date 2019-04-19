@@ -136,7 +136,7 @@ footer {
     
     article, 
     .form-container{
-        grid-template-columns: 1fr 48ch 1fr;
+        grid-template-columns: 1fr 60ch 1fr;
     }
     
     .story h1,
@@ -162,43 +162,29 @@ footer {
 
 	/*      hero content */
     
-    .content {
-        grid-template-columns: 1fr 8fr 1fr;
-    }
     
-    .content picture,
-    .content p,
-    .about-content {
-        grid-column: 2/3;
-    }
+    
+    
 
 	/*	about content */
 
 	/*	gallery */
     
-    figure {
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
     }
     
-    figcaption {
-        margin-left: 1rem;
+    figure {
+        grid-column: auto;
+    }
+    
+    figure {
+        grid-template-columns: 1fr;
     }
 
 	/*	article */
     
-    article,
-    .form-container{
-        grid-template-columns: 1fr 48ch 1fr;
-    }
     
-    .story h1,
-    .story h2,
-    .story .story-body
-    form{
-        grid-column: 2/3;
-    }
-
 	/*	form */
 
 }
