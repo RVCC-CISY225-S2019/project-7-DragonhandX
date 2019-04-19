@@ -11,6 +11,7 @@
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/nav-style.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="print" href="print.css">
 </head>
 
 <body>
@@ -80,8 +81,6 @@
         </div>
         <!-- start of photo gallery -->
         <section id="pictures" class="gallery">
-            <div class="content">
-                <div class="images-content">
                     <figure>
                         <picture>
                             <source media="(min-width: 1024px)" srcset="images/mardukSleepTable-lrg.jpg">
@@ -113,8 +112,6 @@
                         </picture>
                         <figcaption>Here is Skitty again, sleeping on my Dad's lap.</figcaption>
                     </figure>
-                </div>
-            </div>
         </section>
         <!-- end of photo gallery -->
         <div class="back-to-top">
@@ -125,6 +122,7 @@
         <article id="story" class="story">
             <h1>A short story I wrote for class</h1>
             <h2>Nora’s Journey</h2>
+            <div id="story-body" class="story-body">
             <p>Nora walks through the forest with purpose.  The woman of average height with bright blue eyes and short golden hair is prepared to be on the road for awhile; on her back is a bag with a tent and bedroll, rations for close to a month, firestarter and dagger, and a two handed sword only a foot shorter than her.  She is going to find the Demon King and avenge the death of her teacher, the one who initially taught her how to use a sword, and all the other heroes that were sent out.  She will complete her task and return.</p>
             <p>The town sends out a hero to fend off the demons and prevent them from attacking the town.  If the town takes too long to send out a new hero, the raids start.  Nora walks onward as she recalls three times that the demons attacked the town.  There was a lot of arguing among the town leaders preceding the attack two years ago, at which point her teacher was chosen.  A few days ago, it was announced that she had been killed.  Nora remembers the shocked expressions on the faces of everyone upon her volunteering to go.</p>
             <p>How did they know that her instructor had died?  Some crystal ball thing, they tried to show it to her but Nora did not care.  She had made a choice and she was going to see it through.  Walking with care through the forest, she doesn’t want to return early with a sprained ankle, Nora enters the clearing that holds the portal to the world of demons.</p>
@@ -247,6 +245,7 @@
             <p>She looks behind her suddenly to see a white scaled tail, connected to her, touching her bag.  She reaches a shaking hand behind her to the tail, recoiling slightly at the touch of it.  She goes to touch it again, and again, slowly getting used to the new appendage growing out of her.</p>
             <p>Nora turns to face the river again, hugging her knees tight to her chest.  Her thoughts turn to the village she left long ago.  Hiding her face in her arms, the tears flow freely.</p>
             <p>The Demon King was right, her village will not accept her again.</p>
+            </div>
         </article>
         <!-- end of Sherlock Holmes story -->
     </main>
@@ -259,7 +258,6 @@
     <section id="contact" class="form-container">
         <h1>Here is a way to contact me if you wish to, for some reason.</h1>
         <br class="mobile-first"><br class="mobile-first">
-        <div>
             <form class="contact" method="POST" action="https://formspree.io/dragonhandii@gmail.com">
                 <fieldset>
                     <legend>Just fill out this area</legend>
@@ -282,7 +280,6 @@
                     <button type="submit">Send Message<br class="mobile-first"></button>
                 </fieldset>
             </form>
-        </div>
     </section>
     <!-- end of contact form -->
     <!-- start of footer -->
